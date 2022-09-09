@@ -41,3 +41,8 @@ action: "PATCH" location: /students/2
 action: "DELETE" location: /students/2
 
 5. As a developer, you are making an application to manage your to do list. Create 10 user stories that will help you get your application started. Read more about [user stories](https://www.atlassian.com/agile/project-management/user-stories).
+
+1. As a user I should be able to see and access my list of to do items.
+2. As a ListItem I should have a name, description, completion deadline, and completion check
+
+
