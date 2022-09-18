@@ -163,6 +163,21 @@ const remainderThree = (array) => {
 
 }
 
+// GOOD PASS:
+// PASS  ./code-challenges.test.js
+// sentenceFormer
+//   ✓ return a full sentence in an array based on template returns that is formed from objects stored in an array. These sentences will be grammatically correct. (2 ms)
+// remainderThree
+//   ✓ return an array of remainders from a mixed array. These remainders are of each number in the array when divided by three (28 ms)
+// sumAndCubed
+//   ✓ return a cubed sum of numbers input as an array (1 ms)
+
+// Test Suites: 1 passed, 1 total
+// Tests:       3 passed, 3 total
+// Snapshots:   0 total
+// Time:        0.586 s, estimated 1 s
+// Ran all test suites.
+
 // --------------------3) Create a function that takes in an array of numbers and returns the sum of all the numbers cubed.
 
 // a) Create a test with an expect statement using the variables provided.
@@ -226,21 +241,4 @@ const sumAndCubed = (array) => {
 // Time:        0.694 s, estimated 1 s
 // Ran all test suites.
 // ✨  Done in 2.57s.
-
-//REFACTOR -> to make dynamic
-//1. use foreach to iterate through the array
-//2. for each value, do value **3 and add them to one another
-//3. return that sum
-
-// const sumAndCubed = (array) => {
-//   var cubedArray = array.forEach((index, value)=>{
-//         return value **3
-//   })
-
-//   for(let i = 0; i < cubedArray.length; i++) {
-//       sum += cubedArray[i]
-//     }
-
-//     return sum
-//   }
 
